@@ -1,0 +1,88 @@
+.wr {
+    background-color:#fee54d;
+    width: 100%;
+
+}
+.headerMenu {
+    display: flex;
+    list-style: none;
+    padding: 6px 16px;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0rem;
+    margin-top: 0rem;
+
+}
+.buttons {
+    display: flex;
+    flex-direction: row;
+}
+.logo {
+    height: 48px;
+    margin-left: 15px;
+}
+.headerMenu p {
+    font-size: 20px;
+    font-weight: 700;
+    color: black;
+    
+}
+.link {
+    color: black;
+    margin-right: 20px;
+}
+
+.btn {
+    border-radius: 16px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-color: rgb(236, 230, 145);
+    border: 1px solid;
+    font-size: 16px;
+    padding: 8px 16px;
+}
+.lk {
+    height: 36px;
+    margin: 8px;
+}
+.favorite {
+    height: 36px;
+    margin: 8px;
+}
+.cart {
+    height: 36px;
+    margin: 8px;
+}
+.favoritNumber {
+    position: absolute;
+    top: 4px;
+    right: 112px;
+    color: rgb(238, 225, 210);
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 800;
+    -webkit-text-stroke: 1px black;
+  }
+.cartNumber {
+    position: absolute;
+    top: 4px;
+    right: 36px;
+    color: rgb(238, 225, 210);
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 800;
+    -webkit-text-stroke: 1px black;
+  }
+@media (max-width: 720px) {
+    .logo{
+        height: 36px;
+    }
+    .btn {
+        font-size: 12px;
+    padding: 4px 8px;
+    }
+    .cart {
+        height: 28px;
+        margin: 4px;
+    }
+}

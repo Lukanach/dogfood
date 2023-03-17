@@ -1,0 +1,24 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.input{
+    margin-top: 1rem;
+    border-radius: 8px;
+    border: 1px solid;
+}
+.error{
+    color: red;
+    margin-bottom: 0;
+}
+.btn {
+    border-radius: 16px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-color: rgb(236, 230, 145);
+    border: 1px solid;
+    font-size: 16px;
+    padding: 8px 16px;
+}
